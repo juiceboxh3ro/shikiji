@@ -1,0 +1,45 @@
+html {
+  --theme-color-main: #8c7ae6;
+  --theme-color-secondary: #9c88ff;
+
+  --off-white-main: #f5f6fa;
+  --bg-color-main: #2f3640;
+  --bg-color-secondary: #353b48;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  background-color: var(--off-white-main);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+div, a, p, li {
+  font-size: 1.6rem;
+}
+
+.fa-icon-button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background-color: var(--theme-color-main);
+  font-size: 18px;
+  margin: 3px 8px;
+  padding: 0;
+  text-align: center;
+  color: var(--off-white-main);
+  cursor: pointer;
+  transition: all ease-out 0.2s;
+}
+
+.fa-icon-button:hover {
+  background-color: var(--off-white-main);
+  color: var(--theme-color-main);
+}

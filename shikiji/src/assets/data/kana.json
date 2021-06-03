@@ -1,0 +1,458 @@
+{
+  "あ行": {
+    "あ段": {
+      "hira": { "reading": "あ", "stroke": 3, "origin": "安" },
+      "kata": { "reading": "ア", "stroke": 2, "origin": "阿" },
+      "romaji": ["a"]
+    },
+    "い段": {
+      "hira": { "reading": "い", "stroke": 2, "origin": "以" },
+      "kata": { "reading": "イ", "stroke": 2, "origin": "伊" },
+      "romaji": ["i"]
+    },
+    "う段": {
+      "hira": { "reading": "う", "stroke": 2, "origin": "宇" },
+      "kata": { "reading": "ウ", "stroke": 3, "origin": "宇" },
+      "romaji": ["u"]
+    },
+    "え段": {
+      "hira": { "reading": "え", "stroke": 2, "origin": "衣" },
+      "kata": { "reading": "エ", "stroke": 3, "origin": "江" },
+      "romaji": ["e"]
+    },
+    "お段": {
+      "hira": { "reading": "お", "stroke": 3, "origin": "於" },
+      "kata": { "reading": "オ", "stroke": 3, "origin": "於" },
+      "romaji": ["o"]
+    }
+  },
+  "か行": {
+    "あ段": {
+      "hira": { "reading": "か", "stroke": 3, "origin": "加" },
+      "kata": { "reading": "カ", "stroke": 2, "origin": "加" },
+      "romaji": ["ka"]
+    },
+    "い段": {
+      "hira": { "reading": "き", "stroke": 3, "origin": "幾" },
+      "kata": { "reading": "キ", "stroke": 3, "origin": "幾" },
+      "romaji": ["ki"]
+    },
+    "う段": {
+      "hira": { "reading": "く", "stroke": 1, "origin": "久" },
+      "kata": { "reading": "ク", "stroke": 2, "origin": "久" },
+      "romaji": ["ku"]
+    },
+    "え段": {
+      "hira": { "reading": "け", "stroke": 3, "origin": "計" },
+      "kata": { "reading": "ケ", "stroke": 3, "origin": "介" },
+      "romaji": ["ke"]
+    },
+    "お段": {
+      "hira": { "reading": "こ", "stroke": 2, "origin": "己" },
+      "kata": { "reading": "コ", "stroke": 2, "origin": "己" },
+      "romaji": ["ko"]
+    }
+  },
+  "が行": {
+    "あ段": {
+      "hira": { "reading": "が", "stroke": 5 },
+      "kata": { "reading": "ガ", "stroke": 4 },
+      "romaji": ["ga"]
+    },
+    "い段": {
+      "hira": { "reading": "ぎ", "stroke": 5 },
+      "kata": { "reading": "ギ", "stroke": 5 },
+      "romaji": ["gi"]
+    },
+    "う段": {
+      "hira": { "reading": "ぐ", "stroke": 3 },
+      "kata": { "reading": "グ", "stroke": 4 },
+      "romaji": ["gu"]
+    },
+    "え段": {
+      "hira": { "reading": "げ", "stroke": 5 },
+      "kata": { "reading": "ゲ", "stroke": 5 },
+      "romaji": ["ge"]
+    },
+    "お段": {
+      "hira": { "reading": "ご", "stroke": 4 },
+      "kata": { "reading": "ゴ", "stroke": 4 },
+      "romaji": ["go"]
+    },
+    "is_dakuten_column": true
+  },
+  "さ行": {
+    "あ段": {
+      "hira": { "reading": "さ", "stroke": 2, "origin": "左" },
+      "kata": { "reading": "サ", "stroke": 3, "origin": "散" },
+      "romaji": ["sa"]
+    },
+    "い段": {
+      "hira": { "reading": "し", "stroke": 1, "origin": "之" },
+      "kata": { "reading": "シ", "stroke": 3, "origin": "之" },
+      "romaji": ["shi", "si"]
+    },
+    "う段": {
+      "hira": { "reading": "す", "stroke": 2, "origin": "寸" },
+      "kata": { "reading": "ス", "stroke": 2, "origin": "須" },
+      "romaji": ["su"]
+    },
+    "え段": {
+      "hira": { "reading": "せ", "stroke": 3, "origin": "世" },
+      "kata": { "reading": "セ", "stroke": 2, "origin": "世" },
+      "romaji": ["se"]
+    },
+    "お段": {
+      "hira": { "reading": "そ", "stroke": 1, "origin": "曽" },
+      "kata": { "reading": "ソ", "stroke": 2, "origin": "曽" },
+      "romaji": ["so"]
+    }
+  },
+  "ざ行": {
+    "あ段": {
+      "hira": { "reading": "ざ", "stroke": 4 },
+      "kata": { "reading": "ザ", "stroke": 5 },
+      "romaji": ["za"]
+    },
+    "い段": {
+      "hira": { "reading": "じ", "stroke": 3 },
+      "kata": { "reading": "ジ", "stroke": 5 },
+      "romaji": ["ji", "zi"]
+    },
+    "う段": {
+      "hira": { "reading": "ず", "stroke": 4 },
+      "kata": { "reading": "ズ", "stroke": 4 },
+      "romaji": ["zu"]
+    },
+    "え段": {
+      "hira": { "reading": "ぜ", "stroke": 5 },
+      "kata": { "reading": "ゼ", "stroke": 4 },
+      "romaji": ["ze"]
+    },
+    "お段": {
+      "hira": { "reading": "ぞ", "stroke": 3 },
+      "kata": { "reading": "ゾ", "stroke": 4 },
+      "romaji": ["zo"]
+    },
+    "is_dakuten_column": true
+  },
+  "た行": {
+    "あ段": {
+      "hira": { "reading": "た", "stroke": 4, "origin": "太" },
+      "kata": { "reading": "タ", "stroke": 3, "origin": "多" },
+      "romaji": ["ta"]
+    },
+    "い段": {
+      "hira": { "reading": "ち", "stroke": 2, "origin": "知" },
+      "kata": { "reading": "チ", "stroke": 3, "origin": "千" },
+      "romaji": ["chi", "ti"]
+    },
+    "う段": {
+      "hira": { "reading": "つ", "stroke": 1, "origin": "川" },
+      "kata": { "reading": "ツ", "stroke": 3, "origin": "川" },
+      "romaji": ["tsu", "tu"]
+    },
+    "え段": {
+      "hira": { "reading": "て", "stroke": 1, "origin": "天" },
+      "kata": { "reading": "テ", "stroke": 3, "origin": "天" },
+      "romaji": ["te"]
+    },
+    "お段": {
+      "hira": { "reading": "と", "stroke": 2, "origin": "止" },
+      "kata": { "reading": "ト", "stroke": 2, "origin": "止" },
+      "romaji": ["to"]
+    }
+  },
+  "だ行": {
+    "あ段": {
+      "hira": { "reading": "だ", "stroke": 6 },
+      "kata": { "reading": "ダ", "stroke": 5 },
+      "romaji": ["da"]
+    },
+    "い段": {
+      "hira": { "reading": "ぢ", "stroke": 4 },
+      "kata": { "reading": "ヂ", "stroke": 5 },
+      "romaji": ["di", "ji", "zi"]
+    },
+    "う段": {
+      "hira": { "reading": "づ", "stroke": 3 },
+      "kata": { "reading": "ヅ", "stroke": 5 },
+      "romaji": ["du"]
+    },
+    "え段": {
+      "hira": { "reading": "で", "stroke": 3 },
+      "kata": { "reading": "デ", "stroke": 5 },
+      "romaji": ["de"]
+    },
+    "お段": {
+      "hira": { "reading": "ど", "stroke": 4 },
+      "kata": { "reading": "ド", "stroke": 4 },
+      "romaji": ["do"]
+    },
+    "is_dakuten_column": true
+  },
+  "な行": {
+    "あ段": {
+      "hira": { "reading": "な", "stroke": 4, "origin": "奈" },
+      "kata": { "reading": "ナ", "stroke": 2, "origin": "奈" },
+      "romaji": ["na"]
+    },
+    "い段": {
+      "hira": { "reading": "に", "stroke": 3, "origin": "仁" },
+      "kata": { "reading": "ニ", "stroke": 2, "origin": "仁" },
+      "romaji": ["ni"]
+    },
+    "う段": {
+      "hira": { "reading": "ぬ", "stroke": 2, "origin": "奴" },
+      "kata": { "reading": "ヌ", "stroke": 2, "origin": "奴" },
+      "romaji": ["nu"]
+    },
+    "え段": {
+      "hira": { "reading": "ね", "stroke": 2, "origin": "祢" },
+      "kata": { "reading": "ネ", "stroke": 4, "origin": "祢" },
+      "romaji": ["ne"]
+    },
+    "お段": {
+      "hira": { "reading": "の", "stroke": 1, "origin": "乃" },
+      "kata": { "reading": "ノ", "stroke": 1, "origin": "乃" },
+      "romaji": ["no"]
+    }
+  },
+  "は行": {
+    "あ段": {
+      "hira": { "reading": "は", "stroke": 3, "origin": "波" },
+      "kata": { "reading": "ハ", "stroke": 2, "origin": "八" },
+      "romaji": ["ha"]
+    },
+    "い段": {
+      "hira": { "reading": "ひ", "stroke": 1, "origin": "比" },
+      "kata": { "reading": "ヒ", "stroke": 2, "origin": "比" },
+      "romaji": ["hi"]
+    },
+    "う段": {
+      "hira": { "reading": "ふ", "stroke": 4, "origin": "不" },
+      "kata": { "reading": "フ", "stroke": 1, "origin": "不" },
+      "romaji": ["hu"]
+    },
+    "え段": {
+      "hira": { "reading": "へ", "stroke": 1, "origin": "部" },
+      "kata": { "reading": "ヘ", "stroke": 1, "origin": "部" },
+      "romaji": ["he"]
+    },
+    "お段": {
+      "hira": { "reading": "ほ", "stroke": 4, "origin": "保" },
+      "kata": { "reading": "ホ", "stroke": 4, "origin": "保" },
+      "romaji": ["ho"]
+    }
+  },
+  "ば行": {
+    "あ段": {
+      "hira": { "reading": "ば", "stroke": 3 },
+      "kata": { "reading": "バ", "stroke": 2 },
+      "romaji": ["ba"]
+    },
+    "い段": {
+      "hira": { "reading": "び", "stroke": 1 },
+      "kata": { "reading": "ビ", "stroke": 2 },
+      "romaji": ["bi"]
+    },
+    "う段": {
+      "hira": { "reading": "ぶ", "stroke": 4 },
+      "kata": { "reading": "ブ", "stroke": 1 },
+      "romaji": ["bu"]
+    },
+    "え段": {
+      "hira": { "reading": "べ", "stroke": 1 },
+      "kata": { "reading": "ベ", "stroke": 1 },
+      "romaji": ["be"]
+    },
+    "お段": {
+      "hira": { "reading": "ぼ", "stroke": 4 },
+      "kata": { "reading": "ボ", "stroke": 4 },
+      "romaji": ["bo"]
+    },
+    "is_dakuten_column": true
+  },
+  "ぱ行": {
+    "あ段": {
+      "hira": { "reading": "ぱ", "stroke": 4 },
+      "kata": { "reading": "パ", "stroke": 3 },
+      "romaji": ["pa"]
+    },
+    "い段": {
+      "hira": { "reading": "ぴ", "stroke": 2 },
+      "kata": { "reading": "ピ", "stroke": 3 },
+      "romaji": ["pi"]
+    },
+    "う段": {
+      "hira": { "reading": "ぷ", "stroke": 5 },
+      "kata": { "reading": "プ", "stroke": 2 },
+      "romaji": ["pu"]
+    },
+    "え段": {
+      "hira": { "reading": "ぺ", "stroke": 2 },
+      "kata": { "reading": "ペ", "stroke": 2 },
+      "romaji": ["pe"]
+    },
+    "お段": {
+      "hira": { "reading": "ぽ", "stroke": 5 },
+      "kata": { "reading": "ポ", "stroke": 5 },
+      "romaji": ["po"]
+    },
+    "is_dakuten_column": true
+  },
+  "ま行": {
+    "あ段": {
+      "hira": { "reading": "ま", "stroke": 3, "origin": "末" },
+      "kata": { "reading": "マ", "stroke": 2, "origin": "末" },
+      "romaji": ["ma"]
+    },
+    "い段": {
+      "hira": { "reading": "み", "stroke": 2, "origin": "美" },
+      "kata": { "reading": "ミ", "stroke": 3, "origin": "三" },
+      "romaji": ["mi"]
+    },
+    "う段": {
+      "hira": { "reading": "む", "stroke": 3, "origin": "武" },
+      "kata": { "reading": "ム", "stroke": 2, "origin": "牟" },
+      "romaji": ["mu"]
+    },
+    "え段": {
+      "hira": { "reading": "め", "stroke": 2, "origin": "女" },
+      "kata": { "reading": "メ", "stroke": 2, "origin": "女" },
+      "romaji": ["me"]
+    },
+    "お段": {
+      "hira": { "reading": "も", "stroke": 3, "origin": "毛" },
+      "kata": { "reading": "モ", "stroke": 3, "origin": "毛" },
+      "romaji": ["mo"]
+    }
+  },
+  "や行": {
+    "あ段": {
+      "hira": { "reading": "や", "stroke": 3, "origin": "也" },
+      "kata": { "reading": "ヤ", "stroke": 2, "origin": "也" },
+      "romaji": ["ya"]
+    },
+    "い段": {
+      "hira": { "reading": "$" }
+    },
+    "う段": {
+      "hira": { "reading": "ゆ", "stroke": 2, "origin": "由" },
+      "kata": { "reading": "ユ", "stroke": 2, "origin": "由" },
+      "romaji": ["yu"]
+    },
+    "え段": {
+      "hira": { "reading": "$" }
+    },
+    "お段": {
+      "hira": { "reading": "よ", "stroke": 2, "origin": "与" },
+      "kata": { "reading": "ヨ", "stroke": 3, "origin": "與" },
+      "romaji": ["yo"]
+    }
+  },
+  "ら行": {
+    "あ段": {
+      "hira": { "reading": "ら", "stroke": 2, "origin": "良" },
+      "kata": { "reading": "ラ", "stroke": 2, "origin": "良" },
+      "romaji": ["ra"]
+    },
+    "い段": {
+      "hira": { "reading": "り", "stroke": 1, "origin": "利" },
+      "kata": { "reading": "リ", "stroke": 2, "origin": "利" },
+      "romaji": ["ri"]
+    },
+    "う段": {
+      "hira": { "reading": "る", "stroke": 1, "origin": "留" },
+      "kata": { "reading": "ル", "stroke": 2, "origin": "流" },
+      "romaji": ["ru"]
+    },
+    "え段": {
+      "hira": { "reading": "れ", "stroke": 2, "origin": "礼" },
+      "kata": { "reading": "レ", "stroke": 1, "origin": "礼" },
+      "romaji": ["re"]
+    },
+    "お段": {
+      "hira": { "reading": "ろ", "stroke": 1, "origin": "呂" },
+      "kata": { "reading": "ロ", "stroke": 3, "origin": "呂" },
+      "romaji": ["ro"]
+    }
+  },
+  "わ行": {
+    "あ段": {
+      "hira": { "reading": "わ", "stroke": 2, "origin": "和" },
+      "kata": { "reading": "ワ", "stroke": 2, "origin": "和" },
+      "romaji": ["wa"]
+    },
+    "い段": {
+      "hira": { "reading": "ゐ", "stroke": 1, "origin": "爲" },
+      "kata": { "reading": "ヰ", "stroke": 4, "origin": "井" },
+      "romaji": ["wi"],
+      "obsolete": true
+    },
+    "う段": {
+      "hira": { "reading": "ん", "stroke": 1, "origin": "无" },
+      "kata": { "reading": "ン", "stroke": 2, "origin": "尓" },
+      "romaji": ["n"]
+    },
+    "え段": {
+      "hira": { "reading": "ゑ", "stroke": 2, "origin": "恵" },
+      "kata": { "reading": "ヱ", "stroke": 3, "origin": "恵" },
+      "romaji": ["we", "e"],
+      "obsolete": true
+    },
+    "お段": {
+      "hira": { "reading": "を", "stroke": 3, "origin": "遠" },
+      "kata": { "reading": "ヲ", "stroke": 2, "origin": "乎" },
+      "romaji": ["wo"]
+    }
+  },
+  "特行": {
+    "あ段": {
+      "hira": { "reading": "ゎ", "stroke": 2 },
+      "kata": { "reading": "ヮ", "stroke": 2 },
+      "romaji": ["lwa", "xwa"]
+    },
+    "い段": {
+      "hira": { "reading": "$" }
+    },
+    "う段": {
+      "hira": { "reading": "っ", "stroke": 1 },
+      "kata": { "reading": "ッ", "stroke": 3 },
+      "romaji": ["ltu", "xtu"]
+    },
+    "え段": {
+      "hira": { "reading": "$" }
+    },
+    "お段": {
+      "hira": { "reading": "$" }
+    }
+  },
+  "小行": {
+    "あ段": {
+      "hira": { "reading": "ぁ", "stroke": 3, "origin": "安" },
+      "kata": { "reading": "ァ", "stroke": 2, "origin": "阿" },
+      "romaji": ["la", "xa"]
+    },
+    "い段": {
+      "hira": { "reading": "ぃ", "stroke": 2, "origin": "以" },
+      "kata": { "reading": "ィ", "stroke": 2, "origin": "伊" },
+      "romaji": ["li", "xi"]
+    },
+    "う段": {
+      "hira": { "reading": "ぅ", "stroke": 2, "origin": "宇" },
+      "kata": { "reading": "ゥ", "stroke": 3, "origin": "宇" },
+      "romaji": ["lu", "xu"]
+    },
+    "え段": {
+      "hira": { "reading": "ぇ", "stroke": 2, "origin": "衣" },
+      "kata": { "reading": "ェ", "stroke": 3, "origin": "江" },
+      "romaji": ["le", "xe"]
+    },
+    "お段": {
+      "hira": { "reading": "ぉ", "stroke": 3, "origin": "於" },
+      "kata": { "reading": "ォ", "stroke": 3, "origin": "於" },
+      "romaji": ["lo", "xo"]
+    }
+  }
+}
