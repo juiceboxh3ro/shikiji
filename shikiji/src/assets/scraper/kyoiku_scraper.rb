@@ -7,7 +7,6 @@ html = HTTParty.get(url)
 doc = Nokogiri::HTML(html)
 
 File.open("datas.json", "a") do |f|
-  f.write("{\"kyoiku_kanji\": [") # shut up i'm lazy okay?
   rows = doc.css("table tbody tr").each do |row|
     row_as_array = row.content.split(" ")
     r1 = row_as_array[0]
@@ -26,8 +25,6 @@ File.open("datas.json", "a") do |f|
       f.write(",")
     end
   end
-
-  f.write("]}")
   f.close()
 
 end

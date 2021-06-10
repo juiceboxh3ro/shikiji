@@ -1,0 +1,145 @@
+/* SIMPLE FADE */
+.fade-in-out-enter {
+  opacity: 0;
+}
+.fade-in-out-enter-to {
+  opacity: 1;
+}
+.fade-in-out-enter-active {
+  transition: all 0.25s ease-out;
+}
+
+.fade-in-out-leave {
+  opacity: 1;
+}
+.fade-in-out-leave-to {
+  opacity: 0;
+}
+.fade-in-out-leave-active {
+  transition: all 0.25s ease-out;
+  position: absolute;
+  width: 100%;
+}
+
+.fade-in-out-move {
+  transition: transform 0.5s ease;
+}
+
+/* FADE AND SWAP */
+.fade-swap-enter {
+  opacity: 0;
+  transform: translateY(-200px) scale(0.9);
+}
+.fade-swap-enter-active {
+  transition: all 0.3s ease-out;
+}
+.fade-swap-enter-to {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.fade-swap-leave {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.fade-swap-leave-active {
+  transition: all 0.3s ease-out;
+}
+.fade-swap-leave-to {
+  opacity: 0;
+  transform: translateY(200px) scale(0.7);
+}
+
+.fade-swap-move {
+  transition: transform 0.3s ease;
+}
+
+/* ROTATE IN/OUT */
+.rotate-enter {
+  opacity: 0;
+  transform: rotate(-10deg) translateX(-150px) translateY(-50px);
+}
+.rotate-enter-to {
+  opacity: 1;
+  transform: rotate(0deg) translateX(0);
+}
+.rotate-enter-active {
+  transition: all 0.25s ease-out;
+  /* position: absolute; */
+  width: 100%;
+}
+
+.rotate-leave {
+  opacity: 1;
+  transform: rotate(0) translateX(0);
+}
+.rotate-leave-to {
+  opacity: 0;
+  transform: rotate(10deg) translateX(150px) translateY(50px);
+}
+.rotate-leave-active {
+  transition: all 0.25s ease-out;
+  /* position: absolute;
+  width: 100%; */
+}
+
+.rotate-move {
+  transition: transform 0.5s ease;
+}
+
+/* SEND STORY */
+
+.send-enter {
+  opacity: 0;
+  transform: translate(-500px, -500px) scale(0.3) rotate(-30deg);
+}
+.send-enter-to {
+  opacity: 1;
+  transform: translate(0, 0) scale(1) rotate(0deg);
+}
+.send-enter-active {
+  transition: all 0.3s ease-out;  
+}
+
+
+.send-leave {
+  opacity: 1;
+  transform: translateY(0, 0) scale(1) rotate(0deg);
+}
+.send-leave-to {
+  opacity: 0;
+  transform: translate(500px, -500px) scale(0.3) rotate(30deg);
+}
+.send-leave-active {
+  transition: all 0.3s ease-out;
+  width: 100%;
+  position: absolute;
+}
+
+
+/* DELAYS */
+.ani-delay-0 { animation-delay: calc(100ms * 0); }
+.ani-delay-1 { animation-delay: calc(100ms * 1); }
+.ani-delay-2 { animation-delay: calc(100ms * 2); }
+.ani-delay-3 { animation-delay: calc(100ms * 3); }
+.ani-delay-4 { animation-delay: calc(100ms * 4); }
+.ani-delay-5 { animation-delay: calc(100ms * 5); }
+.ani-delay-6 { animation-delay: calc(100ms * 6); }
+.ani-delay-7 { animation-delay: calc(100ms * 7); }
+.ani-delay-8 { animation-delay: calc(100ms * 8); }
+.ani-delay-9 { animation-delay: calc(100ms * 9); }
+.ani-delay-10 { animation-delay: calc(100ms * 10); }
+.ani-delay-11 { animation-delay: calc(100ms * 11); }
+.ani-delay-12 { animation-delay: calc(100ms * 12); }
+.ani-delay-13 { animation-delay: calc(100ms * 13); }
+.ani-delay-14 { animation-delay: calc(100ms * 14); }
+.ani-delay-15 { animation-delay: calc(100ms * 15); }
+.ani-delay-16 { animation-delay: calc(100ms * 16); }
+.ani-delay-17 { animation-delay: calc(100ms * 17); }
+.ani-delay-18 { animation-delay: calc(100ms * 18); }
+.ani-delay-19 { animation-delay: calc(100ms * 19); }
+.ani-delay-20 { animation-delay: calc(100ms * 20); }
+.ani-delay-21 { animation-delay: calc(100ms * 21); }
+.ani-delay-22 { animation-delay: calc(100ms * 22); }
+.ani-delay-23 { animation-delay: calc(100ms * 23); }
+.ani-delay-24 { animation-delay: calc(100ms * 24); }

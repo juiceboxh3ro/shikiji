@@ -13,8 +13,14 @@
         <h1>Shikiji</h1>
         <ul>
           <li>
-            <router-link to="/study" @click="sidenavOpen = false">
-              <i class="fas fa-comments"></i><span>Chat</span>
+            <router-link to="/kana" @click="sidenavOpen = false">
+              <!-- <i class="fas fa-comments"></i><span>Chat</span> -->
+              <span>あア</span>
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/kioku" @click="sidenavOpen = false">
+              <span>記憶</span>
             </router-link>
           </li>
         </ul>
@@ -39,7 +45,6 @@ export default {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
   z-index: 190;
   background-color: rgba(0,0,0,0.7);
   -webkit-backdrop-filter: blur(3px);

@@ -1,29 +1,31 @@
 <template>
-  <div
-    v-for="(item, objkey, idx) in row"
-    :key="`${objkey}-${idx}`"
-  >
-    <template v-if="item?.hira?.reading">
-      <div
-        class="card content"
-        v-if="(
-          item.hira.reading !== 'ゐ'
-          && item.hira.reading !== 'ゑ'
-          && item.hira.reading !== '$'
-        )"
-      >
-        {{ item.hira.reading }}
-      </div>
-      <div class="card" v-else>
+  <div>
+    <div
+      v-for="(item, objkey, idx) in row"
+      :key="`${objkey}-${idx}`"
+    >
+      <template v-if="item?.hira?.reading">
+        <div
+          class="card content"
+          v-if="(
+            item.hira.reading !== 'ゐ'
+            && item.hira.reading !== 'ゑ'
+            && item.hira.reading !== '$'
+          )"
+        >
+          {{ showKata ? item.kata.reading : item.hira.reading }}
+        </div>
+        <div class="card" v-else>
 
-      </div>
-    </template>
+        </div>
+      </template>
+    </div>
   </div>
 </template>
 
 <script>
   export default {
-    props: ["row"]
+    props: ["row", "showKata"]
   }
 </script>
 
