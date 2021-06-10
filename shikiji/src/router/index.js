@@ -13,9 +13,15 @@ const router = createRouter({
       meta: {}
     },
     {
-      path: '/study',
-      name: 'Study',
-      component: () => import('../views/Study.vue'),
+      path: '/kana',
+      name: 'KanaMap',
+      component: () => import('../views/KanaMap.vue'),
+      meta: {}
+    },
+    {
+      path: '/kioku',
+      name: 'Kioku',
+      component: () => import('../views/Kioku.vue'),
       meta: {}
     },
     {

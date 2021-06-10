@@ -14,13 +14,24 @@ html, body {
   background-color: var(--off-white-main);
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 900;
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+a,
+p,
+label {
+  padding: 0;
+  margin: 0;
 }
 
-div, a, p, li {
+div, a, p, li, input, label {
   font-size: 1.6rem;
+}
+button {
+  font-size: 1.2rem;
 }
 
 .fa-icon-button {

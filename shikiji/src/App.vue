@@ -7,6 +7,7 @@
 
 <script>
 import "@/assets/styles/index.css"
+import "@/assets/styles/animations.css"
 import Navigation from './components/navigation/Navigation.vue'
 
 export default {

@@ -12,9 +12,8 @@
             && item.hira.reading !== 'ゑ'
             && item.hira.reading !== '$'
           )"
-          @click="goToSingleKana(item.hira.reading)"
         >
-          {{ item.hira.reading }}
+          {{ showKata ? item.kata.reading : item.hira.reading }}
         </div>
         <div class="card" v-else>
 
@@ -26,12 +25,7 @@
 
 <script>
   export default {
-    props: ["row"],
-    methods: {
-      goToSingleKana(kana) {
-        this.$router.push({ name: "Kana", params: { kana }})
-      }
-    }
+    props: ["row", "showKata"]
   }
 </script>
 
