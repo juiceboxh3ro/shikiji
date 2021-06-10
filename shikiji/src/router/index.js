@@ -17,7 +17,16 @@ const router = createRouter({
       name: 'Study',
       component: () => import('../views/Study.vue'),
       meta: {}
-    }
+    },
+    {
+      path: '/kana/:kana',
+      name: 'Kana',
+      props: true,
+      component: () => import('../views/Kana.vue'),
+      meta: {
+        requiresAuth: true,
+      },
+    },
   ],
   scrollBehavior(_, _2, savedPosition) {
     if (savedPosition) return savedPosition
