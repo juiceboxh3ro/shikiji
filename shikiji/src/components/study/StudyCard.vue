@@ -12,6 +12,7 @@
             && item.hira.reading !== 'ゑ'
             && item.hira.reading !== '$'
           )"
+          @click="goToSingleKana(showKata ? item.kata.reading : item.hira.reading)"
         >
           {{ showKata ? item.kata.reading : item.hira.reading }}
         </div>
@@ -25,7 +26,15 @@
 
 <script>
   export default {
-    props: ["row", "showKata"]
+    props: ["row", "showKata"],
+    methods: {
+      goToSingleKana(kana) {
+        this.$router.push({ name: "Kana", params: { kana }})
+      }
+    },
+    mounted() {
+      console.log(this.$route.params)
+    }
   }
 </script>
 
